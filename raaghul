@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="Profile.css">
+    <link rel="stylesheet" href="Navigation_menu.css">
+</head>
+<body>
+    <header>
+        <div class="menu_bar">
+            <nav class="menu">
+                <ol class="menu_items">
+                    <li><a href="#home" id="link">Home</a></li>
+                    <li><a href="#about" id="link">About</a></li>
+                    <li><a href="#education" id="link">Education</a></li>
+                    <li><a href="#skills" id="link">Skills</a></li>
+                    <li><a href="#projects" id="link">Projects</a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <hr id="menu_hr"/>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="my_profile">
+        <div class="profile">
+            <img src="My image.jpg" alt="MY Photo" id="my_photo" class="photo">
+        </div>
+        <div class="my_info">
+            <div class="name">
+                <h3 id="name"><i>RAAGHUL</i></h3>
+            </div>
+            <div class="info">
+                <div class="mail_flex">
+                    <div class="mail_icon">
+                        <img src="email_icon.png" alt="email_icon" id="email_icon" height="19px" width="19px" style="color: rgb(0, 0, 0);">
+                    </div>
+                    <div class="mail_title" style="margin-top: -18px; padding-left: 10px;">
+                        <p>727723euec509@skcet.ac.in</p>
+                    </div>
+                    <div class="contact_logo">
+                        <img src="contact_icon.png" alt="contact_logo" id="contact_logo" height="19px" width="19px">
+                    </div>
+                    <div class="contact_title" style="margin-top:-18px;padding-left: 8px;">
+                        <p>+91 9384772307</p>
+                    </div>
+                </div>
+                <div class="Links">
+                    <div id="git_link">
+                        <a href="https://github.com/raaghul21" title="Click to open Github account" id="git_ref">Github</a>
+                    </div>
+                    
+                    <div id="linkedin_link">
+                        <a href="https://in.linkedin.com/in/rahul-b-134b53244" title="Click to open Linkesin account" id="linkedin" style="margin-top: -18px; padding-left:7px;">Linkedin</a>
+                    </div>
+                    <div id="resume_image">
+                        <img src="c:\Users\rahul\AppData\Local\Temp\5e0b03d3-eedd-4e74-8c93-47435ec68da7_pdf2png.zip.da7\My Resume\My Resume-1.png" width="19px" hight="19px">
+                    </div>
+                    <div id="resume_link">
+                        <a href="c:\Users\rahul\AppData\Local\Temp\5e0b03d3-eedd-4e74-8c93-47435ec68da7_pdf2png.zip.da7\My Resume\My Resume-1.png" title="Click to view Resume" id="resume" style="margin-top: -18px;margin-left: 5px;">Resume</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="info_hr"/>
+</body>
+</html>
